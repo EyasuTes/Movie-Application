@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  :root{
+    --color-c1red: 229 9 20;
+    --color-c2gray: 128 128 128;
+    --color-c3white: 255 255 255;
+    --color-c4black: 0 0 0 ;
+    --color-darkBlue: 10 18 42;
+    --color-darkPurple: 45 9 72;
+    --color-navyBlue: 4 6 13;
+    --color-silver: 192 192 192;
+    --color-orange: 255 94 0;
+    --color-pink: 255 192 203;
+    
+  }
+  
+}
+
+
+@layer utilities{
+  .animation-delay-2000{
+    animation-delay:2s;
+  }
+  .animation-delay-3000{
+    animation-delay:3s
+  }
+  .animation-delay-6000{
+    animation-delay:6s;
+  }
+}
