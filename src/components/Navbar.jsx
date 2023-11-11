@@ -108,7 +108,7 @@ export default function Navbar() {
         <div
           className={` flex items-center gap-2 transition-all duration-1000 ${
             currentPath === "/movies"
-              ? "transform sm:translate-x-[-200px] md:translate-x-[-280px] translate-x-[-117px] lg:translate-x-[-350px] xl:translate-x-[-450px] 2xl:translate-x-[-500px]"
+              ? "transform sm:translate-x-[-200px] md:translate-x-[-280px] translate-x-[-112px] lg:translate-x-[-350px] xl:translate-x-[-450px] 2xl:translate-x-[-500px]"
               : ""
           } `}
         >
@@ -139,7 +139,7 @@ export default function Navbar() {
         <div
           className={`flex items-center gap-2 transition-all duration-1000 ${
             currentPath === "/recentlyAdded"
-              ? "transform sm:translate-x-[-300px] md:translate-x-[-400px] translate-x-[-167px] lg:translate-x-[-550px] xl:translate-x-[-700px] 2xl:translate-x-[-850px] "
+              ? "transform sm:translate-x-[-300px] md:translate-x-[-400px] translate-x-[-160px] lg:translate-x-[-550px] xl:translate-x-[-700px] 2xl:translate-x-[-850px] "
               : ""
           } `}
         >
@@ -170,7 +170,7 @@ export default function Navbar() {
         <div
           className={`flex items-center gap-2 transition-all duration-1000 ${
             currentPath === "/myList"
-              ? "transform sm:translate-x-[-480px] md:translate-x-[-620px] translate-x-[-272px] lg:translate-x-[-830px] xl:translate-x-[-1050px] 2xl:translate-x-[-1200px] "
+              ? "transform sm:translate-x-[-480px] md:translate-x-[-620px] translate-x-[-262px] lg:translate-x-[-830px] xl:translate-x-[-1050px] 2xl:translate-x-[-1200px] "
               : ""
           } `}
         >
