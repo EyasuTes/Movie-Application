@@ -29,6 +29,7 @@ export default function Navbar() {
     if (event.key === "Enter") {
       // Call the function or trigger the action you want
       handleSearch();
+      navigate("/search");
     }
   };
 
